@@ -14,7 +14,7 @@ then
     sudo apt-get install -y git
     echo Installing Google chrome
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    sudo apt install ./google-chrome-stable_current_amd64.deb
+    sudo apt install -y -qq ./google-chrome-stable_current_amd64.deb
     echo Installing Java
     sudo apt-get install -y -qq openjdk-11-jdk
     echo Installing VLC Player
